@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-auto-flow: column;
+  font-size: 1px;
+  grid-template-rows: repeat(0, 10px);
+}
+.color-green {
+  color: green;
+}
+.color-red {
+  color: rgb(185, 0, 0);
+}
+.grid h1 {
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+h2 {
+  font-size: 24px !important;
+}
+button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border-color: black;
+}
+.margin {
+  margin-left: auto;
+}
