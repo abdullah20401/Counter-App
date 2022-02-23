@@ -24,7 +24,7 @@
 h2 {
   font-size: 24px !important;
 }
-button {
+.grid button {
   height: 60px;
   width: 60px;
   border-radius: 50px;
@@ -32,4 +32,13 @@ button {
 }
 .margin {
   margin-left: auto;
+}
+
+.reset-button {
+  background-color: rgba(0, 163, 185, 0.63);
+  border-color: black;
+  border-radius: 10px;
+  color: black;
+  width: 80px;
+  height: 50px;
 }

@@ -26,6 +26,9 @@ function Counter() {
           <h1 style={{ backgroundColor: "lightgreen" }}>+</h1>
         </button>
       </div>
+      <button className="reset-button" onClick={() => setCounter(0)}>
+        <p>Reset</p>
+      </button>
     </>
   );
 }
