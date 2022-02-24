@@ -21,8 +21,15 @@
   width: 50%;
   text-align: center;
 }
-h2 {
-  font-size: 24px !important;
+.count {
+  font-size: 24px;
+  display: block;
+  margin-top: 0.73em;
+  margin-bottom: 1.2em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
 }
 .grid button {
   height: 60px;

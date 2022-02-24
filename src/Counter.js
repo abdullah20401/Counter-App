@@ -17,7 +17,7 @@ function Counter() {
             counter > 0 ? "color-green" : counter < 0 ? "color-red" : null
           }
         >
-          <h2>{counter}</h2>
+          <div className="count">{counter}</div>
         </h3>
         <button
           style={{ backgroundColor: "lightgreen" }}
