@@ -1,9 +1,10 @@
 import { useState } from "react";
 
-function Counter() {
+function Counter({ title }) {
   const [counter, setCounter] = useState(0);
   return (
     <>
+      <h1>{title}</h1>
       <div className="grid">
         <button
           style={{ backgroundColor: "#ff7d81" }}
